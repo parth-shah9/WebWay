@@ -4,4 +4,4 @@
 
 Flexible and Easy to Use: great for smaller platforms getting started to jump start their digital business.
 
-(made with HTML and CSS) to create base layout for all types of browsers)
+*creates base layout for all types of browsers*. (made with HTML and CSS)
