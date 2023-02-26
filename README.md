@@ -6,4 +6,4 @@ Flexible and Easy to Use: great for smaller platforms getting started to jump st
 
 *creates base layout for all types of browsers*. (made with HTML and CSS)
 
-(![WebWay](https://user-images.githubusercontent.com/123781273/221444668-6a1501ed-ff0c-424a-8ce1-16668f9c0100.png)
+![WebWay](https://user-images.githubusercontent.com/123781273/221444668-6a1501ed-ff0c-424a-8ce1-16668f9c0100.png)
