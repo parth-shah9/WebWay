@@ -1,0 +1,339 @@
+/* Display
+   ========================================================================== */
+
+/**
+ * 1. Line height change in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in mobile iOS.
+ */
+
+html {
+  line-height: 1.25; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping:
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * - inheritance and scaling of font size for browsers.
+ * 2. change odd `em` font sizing for all browsers
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Semantics
+-Text Edit-
+   ========================================================================== */
+
+/**
+ * change gray background on active links (InternetExplorer 10).
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. change bottom color for browser (Chrome)-
+ * 2.text decoration in Chrome, Edge, Internet Explorer, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. inheritance and scaling of font size for all browsers.
+ * 2. change odd `em` font sizing for all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * correct font size for all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * no `sub` and `sup` elements from affecting line height for all browsers
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* embedded
+
+/**
+ * remove the border on images inside links for Internet Explorer
+ */
+
+img {
+  border-style: none;
+}
+
+/* form
+
+/**
+ * 1. change  the font styles for browsers.
+ * 2. remove margins for applicable browsers
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * overflow in Intenet Explorer
+ * overflow in Edge
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * no inheritance of text transform in Edge, Firefox, and Intenet Explorer
+ * no inheritance of text transform in Firefox
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ *  updates inability to style clickable types in iOS and safari .
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * no inner border and padding in Firefox
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * restore focus styles unset by previous rules
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * update the padding in Firefox
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * - update the text wrapping in Edge and Internet Explorer
+ * - update the color inheritance from `fieldset` elements in Internet Explorer
+ * - remove the padding (fordevelopers when they zero out)
+ *  - `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * correct vertical alignment in Chrome, Firefox, and Opera
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * removes default vertical scrollbar in Internet Explorer 10+
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. add the correct box sizing in IntenetExplorer 10.
+ * 2. remove padding
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * update the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * - update odd appearance in Chrome and Safari
+ * - update the outline style in Safari
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * takes out inner padding in Chrome and Safari on macOS
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * - update the inability to style clickable types in iOS and Safari
+ * - update font properties to `inherit` in Safari
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* interactive sets
+
+/*
+ * add correct display in Edge, InternetExplorer 10+, and Firefox
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * add orrect display in all browsers
+ */
+
+summary {
+  display: list-item;
+}
+
+/* other stuff
+
+/**
+ * add correct display in IE 10+
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * add the correct display in IE 10
+ */
+
+[hidden] {
+  display: none;
+}
