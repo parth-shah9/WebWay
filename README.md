@@ -1,6 +1,6 @@
 # WebWay
 
-**A web design responsive layout for online banking platforms to use for respective uses**
+**A web design responsive layout for online banking platforms to use for respective purposes**
 
 Flexible and Easy to Use: great for smaller platforms getting started to jump start their digital business.
 
